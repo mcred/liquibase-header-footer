@@ -3,7 +3,6 @@ jQuery(document).ready(function(jQuery) {
 	 * Toggle menu for mobile
 	 */
 	jQuery(".menu-btn").click(function() {
-    console.log('asdf');
 		jQuery(this).toggleClass("active");
 		jQuery(".menu-overlay").toggleClass("open");
 		jQuery("html, body").toggleClass("no-overflow");
